@@ -47,13 +47,93 @@ The system generates multiple AI-assisted visual outputs including segmentation 
 
 ---
 
+## ROI Extraction
+
+<p align="center">
+  <img src="./ROI.output.png" width="700">
+</p>
+
+The ROI extraction pipeline isolates clinically relevant scalp regions before severity analysis and AI inference.
+
+---
+
+## Segmentation Overlay Output
+
+<p align="center">
+  <img src="./Segmentation.Overlay.Output" width="700">
+</p>
+
+Visual segmentation overlays are generated to help identify donor boundaries and support consultation visualization.
+
+---
+
 ## Model Evaluation
 
 <p align="center">
-  <img src="./severity-model-evaluation.png" width="700">
+  <img src="./model-evaluation.png" width="700">
 </p>
 
 The severity classification model was evaluated using precision, recall, F1-score, and overall accuracy metrics across multiple severity classes.
+
+---
+
+## Accuracy Curve
+
+<p align="center">
+  <img src="./accuracy_curve.png" width="700">
+</p>
+
+Training accuracy curves were monitored during model development to evaluate convergence and learning stability.
+
+---
+
+## Loss Curve
+
+<p align="center">
+  <img src="./loss_curve.png" width="700">
+</p>
+
+Loss curves were analyzed to monitor optimization performance and potential overfitting during training.
+
+---
+
+## Confusion Matrix
+
+<p align="center">
+  <img src="./confusion_matrix.png" width="700">
+</p>
+
+The confusion matrix highlights prediction distribution across multiple severity classes.
+
+---
+
+## Class Distribution
+
+<p align="center">
+  <img src="./class_distribution.png" width="700">
+</p>
+
+Dataset class distribution analysis was used to better understand model balance and training behavior.
+
+---
+
+## Class-wise Performance Metrics
+
+<p align="center">
+  <img src="./Class-wise.performance.metrics.png" width="700">
+</p>
+
+Detailed evaluation metrics were calculated for each prediction class including precision, recall, and F1-score.
+
+---
+
+## System Architecture
+
+<p align="center">
+  <img src="./Untitled Diagram.png" width="1000">
+</p>
+
+The system architecture combines frontend interaction, backend processing, computer vision pipelines, and AI inference modules.
 
 ---
 
